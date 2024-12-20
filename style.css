@@ -465,6 +465,26 @@ hr {
     overflow-x: hidden;
   }
 
+  .header-name {
+    display: none;
+  }
+
+  .header-nav .header-socials {
+    display: none;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .header-links ul {
+    font-size: 14px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .gallery-link {
+    display: none;
+  }
+
   .rectangle {
     width: 200px;
     height: 25px;
@@ -475,6 +495,23 @@ hr {
     margin-bottom: 0px;
   }
 
+  #about h1 {
+    font-size: 2rem;
+  }
+
+  .education-wrapper {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .education-wrapper h2 {
+    font-size: 1.5rem;
+  }
+
+  .education-wrapper p {
+    font-size: 1rem;
+  }
+
   .experience-grid-wrapper {
     width: 100%;
     display: grid;
@@ -483,6 +520,9 @@ hr {
     column-gap: 30px;
   }
 
+  .experience-grid-wrapper .experience-grid-item h1 {
+    font-size: 2.5rem;
+  }
   .gallery-grid {
     grid-template-columns: 1fr;
   }
@@ -540,6 +580,12 @@ hr {
     align-items: center;
   }
 
+  .contact-footer .header-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .project-display img {
     display: block;
     width: 100%;
@@ -567,11 +613,4 @@ hr {
     align-items: center;
     opacity: 0;
   }
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-}
-
-@media (max-width: 480px) {
 }
